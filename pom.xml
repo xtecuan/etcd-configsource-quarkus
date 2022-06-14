@@ -54,4 +54,12 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>xtecuan</name>
+            <url>https://maven.pkg.github.com/xtecuan/etcd-configsource-quarkus</url>
+        </repository>
+    </distributionManagement>
+
 </project>

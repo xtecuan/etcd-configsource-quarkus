@@ -2,3 +2,5 @@ etcd.protocol=http
 etcd.host=172.16.0.132
 etcd.port=2379
 etcd.url=${etcd.protocol}://${etcd.host}:${etcd.port}
+quarkus.index-dependency.EtcdConfigSourceFactory.group-id=com.xtesoft.quarkus
+quarkus.index-dependency.EtcdConfigSourceFactory.artifact-id=etcd-configsource-quarkus
