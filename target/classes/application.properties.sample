@@ -1,0 +1,4 @@
+etcd.protocol=http
+etcd.host=172.16.0.132
+etcd.port=2379
+etcd.url=${etcd.protocol}://${etcd.host}:${etcd.port}
